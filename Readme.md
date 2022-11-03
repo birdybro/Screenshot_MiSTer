@@ -1,1 +1,3 @@
-This is just an idea to make a core that shows a screenshot from the MiSTer on the screen. Potentially using custom EXIF data with the video information from the debug output of the MiSTer from when the screenshot was made (would require a change in main and only screenshots taken using that hypothetical version of main would work).
+This is just an idea to make a core that shows a screenshot from the MiSTer on the screen. Potentially using custom EXIF data with the video information from the debug output of the MiSTer from when the screenshot was made (would require a change in main and only screenshots taken using that hypothetical version of main would work) as a way to determine the aspect ratio and resolution for scaling, etc...
+
+This would use the core level screenshots as inputs, not the scaled ones.
